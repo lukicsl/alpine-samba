@@ -2,7 +2,7 @@
 # Dockerfile for samba (without netbios)
 #
 
-FROM alpine:edge
+FROM alpine
 
 RUN apk add --update \
     samba-common-tools \
